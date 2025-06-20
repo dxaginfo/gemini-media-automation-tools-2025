@@ -1,0 +1,41 @@
+{
+  "scene_id_format": {
+    "type": "field_required",
+    "field": "scene_id",
+    "description": "Scene ID must be present"
+  },
+  "scene_duration": {
+    "type": "numerical_range",
+    "field": "duration_seconds",
+    "min": 0.5,
+    "max": 300,
+    "description": "Scene duration must be between 0.5 and 300 seconds"
+  },
+  "scene_type": {
+    "type": "field_value_in_set",
+    "field": "scene_type",
+    "allowed_values": ["interior", "exterior", "transition", "montage", "flashback"],
+    "description": "Scene type must be one of the allowed values"
+  },
+  "lighting_consistency": {
+    "type": "continuity_check",
+    "field": "lighting_conditions",
+    "description": "Check for lighting consistency with previous and next scenes"
+  },
+  "content_analysis": {
+    "type": "gemini_analysis",
+    "field": "description",
+    "prompt": "Analyze this scene description for potential continuity issues with characters, props, or settings:",
+    "description": "Use Gemini to analyze scene content for potential issues"
+  },
+  "required_metadata": {
+    "type": "field_required",
+    "field": "metadata",
+    "description": "Scene must include metadata"
+  },
+  "technical_specifications": {
+    "type": "field_required",
+    "field": "technical_specs",
+    "description": "Scene must include technical specifications"
+  }
+}

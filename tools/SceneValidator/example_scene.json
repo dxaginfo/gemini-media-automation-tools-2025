@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC_123_456",
+  "scene_number": 45,
+  "duration_seconds": 120.5,
+  "scene_type": "interior",
+  "description": "Character A enters the room, places keys on the table, and sits on the couch. Character B is already seated, reading a book.",
+  "lighting_conditions": "warm indoor lighting, evening",
+  "characters": ["Character A", "Character B"],
+  "props": ["keys", "table", "couch", "book"],
+  "technical_specs": {
+    "resolution": "4K",
+    "aspect_ratio": "16:9",
+    "frame_rate": 24,
+    "color_profile": "Rec.709"
+  },
+  "metadata": {
+    "script_version": "v2.3",
+    "production_day": 12,
+    "location_id": "LOC_45",
+    "director_notes": "Ensure Character A's movement feels natural and not rushed"
+  }
+}
