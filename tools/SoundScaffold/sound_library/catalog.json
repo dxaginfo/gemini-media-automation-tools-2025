@@ -1,0 +1,137 @@
+{
+  "ambient": {
+    "forest": {
+      "files": [
+        "forest_day.wav",
+        "forest_night.wav",
+        "forest_rain.wav"
+      ],
+      "tags": ["nature", "trees", "leaves", "wilderness"]
+    },
+    "city": {
+      "files": [
+        "city_traffic.wav",
+        "city_crowd.wav",
+        "city_construction.wav"
+      ],
+      "tags": ["urban", "traffic", "people", "busy"]
+    },
+    "water": {
+      "files": [
+        "ocean_waves.wav",
+        "river_flow.wav",
+        "rain_light.wav",
+        "rain_heavy.wav"
+      ],
+      "tags": ["nature", "wet", "flow", "splash"]
+    },
+    "wind": {
+      "files": [
+        "wind_gentle.wav",
+        "wind_strong.wav",
+        "wind_trees.wav"
+      ],
+      "tags": ["nature", "weather", "breeze", "howl"]
+    },
+    "interior": {
+      "files": [
+        "room_tone.wav",
+        "kitchen_ambience.wav",
+        "office_ambience.wav"
+      ],
+      "tags": ["indoors", "quiet", "room", "building"]
+    }
+  },
+  "effects": {
+    "nature": {
+      "files": [
+        "bird_calls.wav",
+        "owl_hoot.wav",
+        "wolf_howl.wav",
+        "leaves_rustle.wav"
+      ],
+      "tags": ["animal", "wildlife", "forest", "outdoors"]
+    },
+    "human": {
+      "files": [
+        "footsteps_wood.wav",
+        "footsteps_gravel.wav",
+        "door_open.wav",
+        "door_close.wav",
+        "chair_squeak.wav"
+      ],
+      "tags": ["person", "movement", "action", "everyday"]
+    },
+    "fire": {
+      "files": [
+        "fire_small.wav",
+        "fire_large.wav",
+        "fire_crackle.wav",
+        "match_strike.wav"
+      ],
+      "tags": ["flame", "burn", "heat", "campfire"]
+    },
+    "mechanical": {
+      "files": [
+        "car_engine.wav",
+        "car_horn.wav",
+        "phone_ring.wav",
+        "clock_tick.wav"
+      ],
+      "tags": ["machine", "technology", "device", "motor"]
+    }
+  },
+  "music": {
+    "acoustic": {
+      "files": [
+        "guitar_picking.wav",
+        "guitar_strumming.wav",
+        "piano_soft.wav"
+      ],
+      "tags": ["instrument", "melody", "soft", "unplugged"]
+    },
+    "electronic": {
+      "files": [
+        "synth_pad.wav",
+        "electronic_beat.wav",
+        "ambient_drone.wav"
+      ],
+      "tags": ["modern", "synthesizer", "digital", "produced"]
+    },
+    "orchestral": {
+      "files": [
+        "strings_sustain.wav",
+        "orchestra_hit.wav",
+        "brass_stab.wav"
+      ],
+      "tags": ["classical", "dramatic", "film", "score"]
+    }
+  },
+  "voices": {
+    "conversation": {
+      "files": [
+        "crowd_murmur.wav",
+        "conversation_distant.wav",
+        "conversation_close.wav"
+      ],
+      "tags": ["talking", "speech", "dialogue", "people"]
+    },
+    "reactions": {
+      "files": [
+        "laughter.wav",
+        "gasp.wav",
+        "scream.wav",
+        "sigh.wav"
+      ],
+      "tags": ["emotion", "human", "response", "expression"]
+    },
+    "vocalizations": {
+      "files": [
+        "hum.wav",
+        "whistle.wav",
+        "singing.wav"
+      ],
+      "tags": ["melody", "tune", "musical", "human"]
+    }
+  }
+}
