@@ -1,0 +1,9 @@
+pyyaml>=6.0
+nltk>=3.6.0
+numpy>=1.20.0
+scipy>=1.7.0
+librosa>=0.9.0
+soundfile>=0.10.0
+google-generativeai>=0.3.0
+google-cloud-texttospeech>=2.11.0
+google-cloud-storage>=2.0.0
