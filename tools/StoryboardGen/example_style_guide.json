@@ -1,0 +1,15 @@
+{
+  "characters": {
+    "ALEX": "30s, medium height, short dark hair, casual clothing, often wearing a worn leather jacket",
+    "FIGURE": "Tall, face obscured, wearing a long dark coat and hat"
+  },
+  "style": "Film noir with modern elements. High contrast, dramatic shadows. Urban setting with neon lighting.",
+  "color_palette": ["deep blues", "purples", "neon highlights", "dark shadows"],
+  "camera_angles": [
+    "Close-ups for emotional reactions",
+    "Wide shots to establish the environment",
+    "Dutch angles during moments of tension"
+  ],
+  "lighting": "Low-key lighting with strong highlights from neon signs and streetlights",
+  "notes": "The city should feel like a character itself - threatening, mysterious, but somehow alive."
+}
